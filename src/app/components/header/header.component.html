@@ -1,0 +1,10 @@
+<p>header works!</p>
+<ng-container *ngIf="originalheader">
+  <button type="button" class="submitBtn btn" (click)="SignUp()">Sign up</button>
+  <button type="button" class="submitBtn btn" (click)="SignIn()">Sign in</button>
+</ng-container>
+
+<ng-container *ngIf="changeHeader">
+  <button type="button" class="submitBtn btn" >profile pic</button>
+  <button type="button" class="submitBtn btn" >logout</button>
+</ng-container>

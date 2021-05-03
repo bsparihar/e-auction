@@ -1,0 +1,77 @@
+<div class="step-template">
+  <h2>Step {{ step.stepIndex }}</h2>
+  <div class="step-content-label">Here's where you show content for step {{ step.stepIndex }}</div>
+  <button class="step-complete-btn" (click)="onCompleteStep()">
+      <span class="completed-step-check material-icons">
+          {{ step.isComplete ? 'check_circle' : 'panorama_fish_eye' }}
+      </span>Complete Step {{ step.stepIndex }}</button>
+</div>
+
+<ng-container *ngIf="step.stepIndex==1">
+  <button type="button" class="submitBtn btn" (click)="Farmer()">Farmer</button>
+  <button type="button" class="submitBtn btn" (click)="Trader()">Trader</button>
+  <button type="button" class="submitBtn btn" (click)="Partner()">Partner</button>
+</ng-container>
+<ng-container *ngIf="step.stepIndex==2">
+  <h1>Otp verification</h1>
+</ng-container>
+<ng-container *ngIf="step.stepIndex==3">
+  <h1>Are you</h1>
+</ng-container>
+<ng-container *ngIf="step.stepIndex==4 ">
+  <div class="row">
+    <div class="col-md-12 mt1">
+        <div class="form-group">
+            <h4 class="subTitleBox">Select partner type</h4>
+            <label class="radcontainer">Miller
+                <input type="radio" name="partnerType" value="Miller"
+                    (click)="getPartnerDataEntry($event.target.value)" [checked]="partnerType == 'Miller'">
+                <span class="checkmarkRad"></span>
+            </label>
+
+            <label class="radcontainer">Assayer
+                <input type="radio" name="partnerType" value="Assayer"
+                    (click)="getPartnerDataEntry($event.target.value)" [checked]="partnerType == 'Assayer'">
+                <span class="checkmarkRad"></span>
+            </label>
+
+            <label class="radcontainer">Logistic
+                <input type="radio" name="partnerType" value="Logistic"
+                    (click)="getPartnerDataEntry($event.target.value)" [checked]="partnerType == 'Logistic'">
+                <span class="checkmarkRad"></span>
+            </label>
+        </div>
+    </div>
+</div>
+  <div *ngIf="FarmerDataEntry==true">
+    <h1>Farmer Registration Data Entry</h1>
+  </div>
+  <div *ngIf="TraderDataEntry==true">
+    <h1>Trader Data Entry</h1>
+  </div>
+  <div *ngIf="PartnerDataEntry==true && MillerDataEntry==true">
+    <h1>Miller Data Entry</h1>
+  </div>
+  <div *ngIf="PartnerDataEntry==true && AssayerDataEntry==true">
+    <h1>Assayer Data Entry</h1>
+  </div>
+  <div *ngIf="PartnerDataEntry==true && LogisticPartnerDataEntry==true">
+    <h1>Logistic Partner Data Entry</h1>
+  </div>
+</ng-container>
+
+<ng-container *ngIf="step.stepIndex==4 && FarmerDataEntry==true">
+  <h1>Farmer Registration Data Entry</h1>
+</ng-container>
+<ng-container *ngIf="step.stepIndex==4 && TraderDataEntry==true">
+  <h1>Trader Data Entry</h1>
+</ng-container>
+<ng-container *ngIf="step.stepIndex==4 && PartnerDataEntry==true && MillerDataEntry==true">
+  <h1>Miller Data Entry</h1>
+</ng-container>
+<ng-container *ngIf="step.stepIndex==4 && PartnerDataEntry==true && AssayerDataEntry==true">
+  <h1>Assayer Data Entry</h1>
+</ng-container>
+<ng-container *ngIf="step.stepIndex==4 && PartnerDataEntry==true && LogisticPartnerDataEntry==true">
+  <h1>Logistic Partner Data Entry</h1>
+</ng-container>
