@@ -1,0 +1,118 @@
+@import "./admin-module-fonts.scss";
+.wrapper {
+  display: flex;
+  align-items: stretch;
+}
+
+#sidebar {
+  min-width: 290px;
+  max-width: 280px;
+  background: #ffffff;
+  color: #fff;
+  padding: 0px 3px;
+  transition: all 0.3s;
+}
+.logo {
+  padding-left: 10px;
+}
+#sidebar.active {
+  min-width: 80px;
+  max-width: 80px;
+  text-align: center;
+}
+
+#sidebar.active .sidebar-header h3,
+#sidebar.active .CTAs {
+  display: none;
+}
+
+#sidebar.active .sidebar-header strong {
+  display: block;
+}
+
+#sidebar ul li.link {
+  text-align: left;
+  color: #faa51a;
+  font-size: 14px;
+  font-family: normal normal normal "gotham";
+  line-height: 20px;
+  padding: 3px 8px;
+}
+
+.font {
+  font-family: Gotham-Bold;
+  background-color: #f6f9fc;
+  border-radius: 5px;
+  height: 60px;
+  position: relative;
+}
+
+#sidebar ul li a {
+  /* padding: 10px; */
+  padding: 20px;
+  display: block;
+}
+
+a[data-toggle="collapse"] {
+  position: relative;
+}
+
+a[aria-expanded="false"]::before,
+a[aria-expanded="true"]::before {
+  content: "\e259";
+  display: block;
+  position: absolute;
+  right: 15px;
+  color: #c6ced6;
+  font-family: "Glyphicons Halflings";
+  font-size: 0.6em;
+}
+a[aria-expanded="true"]::before {
+  content: "\e260";
+}
+
+ul ul a {
+  font-size: 15px;
+  font-family: Gotham-Book;
+  padding: 5px 20px !important;
+  color: #92a0b0 !important;
+}
+
+/* ---------------------------------------------------
+      CONTENT STYLE
+  ----------------------------------------------------- */
+#content {
+  padding: 20px;
+  min-height: 100vh;
+  transition: all 0.3s;
+}
+img.logo {
+  max-width: 100%;
+  height: 60px;
+}
+.sidebar-content {
+  padding-top: 30px;
+  .components {
+    padding-top: 50px;
+  }
+}
+
+.toogle-image {
+  float: right;
+  margin-top: 10px;
+  position: relative;
+  right: 10px;
+  img {
+    display: block;
+    margin-top: 5px;
+  }
+}
+
+i {
+  color: red;
+  float: right;
+  position: relative;
+  left: 8px;
+  color: #a5a5a5;
+  top: -5px;
+}

@@ -1,0 +1,276 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600);
+
+@font-face {
+  font-family: Archivo-Bold;
+  src: url("/assets/fonts/front_end_fonts/Archivo-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: Archivo-BoldItalic;
+  src: urc("/assets/fonts/front_end_fonts/Archivo-BoldItalic.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: Archivo-Italic;
+  src: urc("/assets/fonts/front_end_fonts/Archivo-Italic.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: Archivo-Medium;
+  src: urc("/assets/fonts/front_end_fonts/Archivo-Medium.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: Archivo-MediumItalic;
+  src: urc("/assets/fonts/front_end_fonts/Archivo-MediumItalic.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: Archivo-Regular;
+  src: urc("/assets/fonts/front_end_fonts/Archivo-Regular.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: Archivo-SemiBold;
+  src: urc("/assets/fonts/front_end_fonts/Archivo-SemiBold.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: Archivo-SemiBoldItalic;
+  src: urc("/assets/fonts/front_end_fonts/Archivo-SemiBoldItalic.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: Montserrat-Black;
+  src: urc("/assets/fonts/front_end_fonts/Montserrat-Black.otf")
+    format("truetype");
+}
+@font-face {
+  font-family: Montserrat-BlackItalic;
+  src: urc("/assets/fonts/front_end_fonts/Montserrat-BlackItalic.otf")
+    format("truetype");
+}
+@font-face {
+  font-family: Montserrat-Bold;
+  src: urc("/assets/fonts/front_end_fonts/Montserrat-Bold.otf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: Montserrat-BoldItalic;
+  src: urc("/assets/fonts/front_end_fonts/Montserrat-BoldItalic.otf")
+    format("truetype");
+}
+@font-face {
+  font-family: Montserrat-ExtraBold;
+  src: urc("/assets/fonts/front_end_fonts/Montserrat-ExtraBold.otf")
+    format("truetype");
+}
+@font-face {
+  font-family: Montserrat-ExtraBoldItalic;
+  src: urc("/assets/fonts/front_end_fonts/Montserrat-ExtraBoldItalic.otf")
+    format("truetype");
+}
+@font-face {
+  font-family: Montserrat-ExtraLight;
+  src: urc("/assets/fonts/front_end_fonts/Montserrat-ExtraLight.otf")
+    format("truetype");
+}
+@font-face {
+  font-family: Montserrat-ExtraLightItalic;
+  src: urc("/assets/fonts/front_end_fonts/Montserrat-ExtraLightItalic.otf")
+    format("truetype");
+}
+@font-face {
+  font-family: Montserrat-Italic;
+  src: urc("/assets/fonts/front_end_fonts/Montserrat-Italic.otf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: Montserrat-Light;
+  src: urc("/assets/fonts/front_end_fonts/Montserrat-Light.otf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: Montserrat-LightItalic;
+  src: urc("/assets/fonts/front_end_fonts/Montserrat-LightItalic.otf")
+    format("truetype");
+}
+@font-face {
+  font-family: Montserrat-Medium;
+  src: urc("/assets/fonts/front_end_fonts/Montserrat-Medium.otf")
+    format("truetype");
+}
+@font-face {
+  font-family: Montserrat-MediumItalic;
+  src: urc("/assets/fonts/front_end_fonts/Montserrat-MediumItalic.otf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: urc("/assets/fonts/front_end_fonts/Montserrat-Regular.otf")
+    format("truetype");
+}
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: urc("/assets/fonts/front_end_fonts/Montserrat-SemiBold.otf")
+    format("truetype");
+}
+@font-face {
+  font-family: Montserrat-SemiBoldItalic;
+  src: urc("/assets/fonts/front_end_fonts/Montserrat-SemiBoldItalic.otf")
+    format("truetype");
+}
+@font-face {
+  font-family: Montserrat-Thin;
+  src: urc("/assets/fonts/front_end_fonts/Montserrat-Thin.otf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: Montserrat-ThinItalic;
+  src: urc("/assets/fonts/front_end_fonts/Montserrat-ThinItalic.otf")
+    format("truetype");
+}
+@font-face {
+  font-family: Multi-Bold;
+  src: urc("/assets/fonts/front_end_fonts/Multi-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: MyriadPro-Bold;
+  src: urc("/assets/fonts/front_end_fonts/MyriadPro-Bold.otf")
+    format("truetype");
+}
+@font-face {
+  font-family: MyriadPro-BoldCond;
+  src: urc("/assets/fonts/front_end_fonts/MyriadPro-BoldCond.otf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: MyriadPro-BoldCondIt;
+  src: urc("/assets/fonts/front_end_fonts/MyriadPro-BoldCondIt.otf")
+    format("truetype");
+}
+@font-face {
+  font-family: MyriadPro-BoldIt;
+  src: urc("/assets/fonts/front_end_fonts/MyriadPro-BoldIt.otf")
+    format("truetype");
+}
+@font-face {
+  font-family: MyriadPro-Cond;
+  src: urc("/assets/fonts/front_end_fonts/MyriadPro-Cond.otf")
+    format("truetype");
+}
+@font-face {
+  font-family: MyriadPro-It;
+  src: urc("/assets/fonts/front_end_fonts/MyriadPro-It.otf") format("truetype");
+}
+@font-face {
+  font-family: MyriadPro-Regular;
+  src: urc("/assets/fonts/front_end_fonts/MyriadPro-Regular.otf")
+    format("truetype");
+}
+@font-face {
+  font-family: MyriadPro-Semibold;
+  src: urc("/assets/fonts/front_end_fonts/MyriadPro-Semibold.otf")
+    format("truetype");
+}
+@font-face {
+  font-family: MyriadPro-SemiboldIt;
+  src: urc("/assets/fonts/front_end_fonts/MyriadPro-SemiboldIt.otf")
+    format("truetype");
+}
+@font-face {
+  font-family: Poppins-Black;
+  src: urc("/assets/fonts/front_end_fonts/Poppins/Poppins-Black.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: Poppins-BlackItalic;
+  src: urc("/assets/fonts/front_end_fonts/Poppins-BlackItalic.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: Poppins-Bold;
+  src: urc("/assets/fonts/front_end_fonts/Poppins/Poppins-Bold.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: Poppins-BoldItalic;
+  src: urc("/assets/fonts/front_end_fonts/Poppins-BoldItalic.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: Poppins-ExtraBold;
+  src: urc("/assets/fonts/front_end_fonts/Poppins-ExtraBold.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: Poppins-ExtraBoldItalic;
+  src: urc("/assets/fonts/front_end_fonts/Poppins-ExtraBoldItalic.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: Poppins-ExtraLight;
+  src: urc("/assets/fonts/front_end_fonts/Poppins-ExtraLlight.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: Poppins-ExtraLightItalic;
+  src: urc("/assets/fonts/front_end_fonts/Poppins-ExtraLightItalic.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: Poppins-Italic;
+  src: urc("/assets/fonts/front_end_fonts/Poppins-Italic.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: Poppins-Light;
+  src: urc("/assets/fonts/front_end_fonts/Poppins-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Poppins-LightItalic;
+  src: urc("/assets/fonts/front_end_fonts/Poppins-LightItalic.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: Poppins-Medium;
+  src: urc("/assets/fonts/front_end_fonts/Poppins-Medium.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: Poppins-MediumItalic;
+  src: urc("/assets/fonts/front_end_fonts/Poppins-MediumItalic.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: urc("/assets/fonts/front_end_fonts/Poppins-Regular.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: urc("/assets/fonts/front_end_fonts/Poppins-SemiBold.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: Poppins-Thin;
+  src: urc("/assets/fonts/front_end_fonts/Poppins-Thin.ttf") format("truetype");
+}
+@font-face {
+  font-family: Poppins-ThinItalic;
+  src: urc("/assets/fonts/front_end_fonts/Poppins-ThinItalic.ttf")
+    format("truetype");
+}

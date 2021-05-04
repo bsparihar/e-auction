@@ -1,0 +1,266 @@
+@import "./admin-module-fonts.scss";
+
+body {
+  margin: 0;
+  background-image: linear-gradient(
+    to bottom,
+    #faa51a,
+    #faa51a 330px,
+    #f1f3f9 0px
+  );
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none !important;
+  cursor: pointer;
+}
+ul li {
+  list-style: none;
+}
+.mt-5 {
+  margin-top: 15px;
+}
+
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6 {
+  padding: 0px 5px !important;
+}
+
+i {
+  color: white;
+}
+.main-content {
+  margin: 0px 0px;
+
+  label {
+    color: #ffffff;
+  }
+  .form {
+    background: #ffffff;
+    border-radius: 5px;
+    border: 1px #f7fafc solid;
+    margin-top: 20px;
+    // margin-bottom: 160px;
+    // margin: 60px 0px;
+    padding: 0px;
+    // padding-left: 15px;
+    // padding-right: 15px;
+    // padding-bottom: 20px;
+
+    p.form-heading {
+      font-size: 20px;
+      color: #faa51a;
+      background-color: #f7fafc;
+      font-family: Gotham-Bold;
+      padding: 20px;
+      position: relative;
+      margin: auto;
+    }
+    form {
+      margin-top: 40px;
+      padding-left: 0px;
+      margin-left: 20px;
+      margin-right: 20px;
+
+      label {
+        color: #172b4d;
+        font-size: 14px;
+        left: 5px !important;
+        // font-family: normal normal normal "gotham";
+        font-family: Gotham-Book;
+        font-weight: none !important;
+        @media (max-width: 1020px) {
+          font-size: 13px;
+        }
+      }
+      [type="text"],
+      [type="date"],
+      [type="email"],
+      [type="password"],
+      [type="time"],
+      select,
+      mat-form-field {
+        background: #f7fafc;
+        border: none;
+        height: 50px;
+        border-radius: 5px;
+        box-shadow: 3px 3px 3px #1717172e;
+        margin-top: 5px;
+        ::placeholder {
+          position: relative;
+          /* top: 8px; */
+          left: 19px;
+          font-size: 15px;
+          color: #8898aa;
+        }
+      }
+      .dropdown {
+        margin-top: 15px;
+        i {
+          color: #a5a5a5;
+        }
+      }
+      .red-button {
+        background-color: #ff6464;
+        color: #f5f6fa;
+        font-size: 12px;
+        font-family: normal normal "gotham";
+        border: 1px solid #ff6464;
+        padding: 5px 20px;
+        border-radius: 3px;
+        opacity: 1;
+        @media (max-width: 1059px) {
+          margin-left: 0px;
+          padding: 5px 7px;
+        }
+        @media (max-width: 767px) {
+          padding: 5px 0px;
+        }
+        @media (max-width: 575px) {
+          padding: 5px 8px;
+          position: relative;
+          top: -30px;
+        }
+      }
+      .green-button {
+        color: #f5f6fa;
+        font-size: 12px;
+        font-family: Gotham-Bold;
+        // font-family: normal normal normal "gotham";
+        background-color: #2dce98 !important;
+        border: 1px solid #2dce98;
+        padding: 10px !important;
+        @media (max-width: 575px) {
+          position: relative;
+          top: 5px;
+          left: -5px;
+        }
+      }
+    }
+  }
+  .form-group.attach-files label {
+    color: #faa51a !important;
+    font-family: Gotham-Bold !important;
+    // font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 15px;
+    padding-top: 40px;
+    padding-left: 10px;
+  }
+
+  .attach-files input {
+    border-radius: 2px;
+    padding-top: 40px;
+  }
+
+  [type="file"] {
+    height: 0;
+    overflow: hidden;
+    width: 0;
+  }
+
+  [type="file"] + label {
+    background: #2dce98 !important;
+    border: none;
+    border-radius: 5px;
+    color: #fff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-family: normal normal normal "gotham";
+    font-size: 13px;
+    outline: none;
+    padding: 10px 20px;
+    position: relative;
+    vertical-align: middle;
+    @media (max-width: 575px) {
+      position: relative;
+      top: -20px;
+    }
+  }
+
+  .form-group textarea {
+    background-color: #f9f9f9;
+    border: 1px solid #f9f9f9;
+    box-shadow: 3px 3px #ebebeb;
+  }
+}
+.submit-buttons {
+  padding-top: 80px;
+}
+.add-more-mill {
+  color: #f5f6fa;
+  font-size: 11px;
+  border-radius: 3px;
+  position: relative;
+  top: 0px;
+  float: right;
+  font-family: normal normal normal "gotham";
+  background-color: #2dce98 !important;
+  border: 1px solid #2dce98;
+  font-weight: bold;
+  padding: 12px 20px !important;
+  @media (max-width: 1200px) {
+    float: left !important;
+  }
+}
+.add-more {
+  color: #f5f6fa;
+  font-size: 12px;
+  border-radius: 5px;
+  position: relative;
+  left: 10px;
+  top: 10px;
+  font-family: normal normal normal "gotham";
+  background-color: #2dce98 !important;
+  border: 1px solid #2dce98;
+  padding: 10px 15px !important;
+}
+
+.green_button {
+  color: #f5f6fa;
+  font-size: 13px;
+  font-family: Gotham-Bold;
+  // font-weight: bold;
+  // font-family: normal normal bold "gotham";
+  background-color: #2dce98 !important;
+  border: 1px solid #2dce98;
+  padding: 10px 30px !important;
+  border-radius: 5px;
+  float: right;
+  opacity: 1;
+}
+.red_button {
+  color: #f5f6fa;
+  font-size: 13px;
+  font-family: Gotham-Bold;
+  // font-weight: bold;
+  // font-family: normal normal bold "gotham";
+  background-color: #ff6464 !important;
+  border: 1px solid #ff6464;
+  margin: 0px 5px;
+  padding: 10px 30px !important;
+  border-radius: 5px;
+  float: right !important;
+  opacity: 1;
+}
+.form-group.browse-files-cheque label {
+  color: #172b4d !important;
+  padding-top: 10px;
+}
+.form-group.browse-files label {
+  color: #8898aa !important;
+  // color: red !important;
+  font-size: 11px;
+
+  padding-top: 10px;
+  font-family: Gotham-Bold;
+}
+
+.form-details {
+  margin-bottom: 300px;
+}

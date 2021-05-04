@@ -1,0 +1,548 @@
+@import "../../../assets/scss/user-module.scss";
+// @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+section {
+  margin: 0px;
+  padding: 30px 0px;
+  font-family: Poppins "sans-serif";
+  @media (max-width: 550px) {
+    padding: 1px;
+  }
+}
+section.agro {
+  .agro-section {
+    margin-top: 100px;
+    padding: 0px 70px;
+
+    @media (max-width: 780px) {
+      padding: 0px 10px;
+    }
+  }
+  h1 {
+    font-family: Archivo-Bold;
+    font-size: 65px;
+    text-transform: capitalize;
+    color: #ffffff;
+    line-height: 1;
+    position: relative;
+    top: 80px;
+    @media (max-width: 991px) {
+      top: 30px;
+    }
+    @media (max-width: 1081px) {
+      font-size: 45px;
+      line-height: 1;
+    }
+    @media (max-width: 550px) {
+      font-size: 50px;
+    }
+  }
+  p {
+    position: relative;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Poppins, sans-serif !important;
+    top: 80px;
+    @media (max-width: 991px) {
+      top: 30px;
+    }
+  }
+  button {
+    position: relative;
+    top: 130px;
+    border: 2pt solid rgba(250, 165, 26, 1);
+    border-radius: 32px;
+    padding: 10px 25px;
+    opacity: 1;
+    background-color: transparent;
+    color: #faa51a;
+    text-transform: uppercase;
+    font-size: 13px;
+    box-shadow: inset 0 0 15px rgba(255, 167, 171, 1);
+    filter: blur(0.5px);
+    @media (max-width: 991px) {
+      top: 50px;
+    }
+    @media (max-width: 550px) {
+      top: 30px;
+    }
+  }
+  img {
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+  .logo-image {
+    position: absolute;
+    top: 480px;
+    width: 25px;
+    left: 30px;
+    @media (max-width: 1030px) {
+      top: 450px;
+    }
+    @media (max-width: 991px) {
+      top: 400px;
+    }
+
+    @media (max-width: 550px) {
+      top: 700px;
+    }
+    img {
+      max-width: 100%;
+      height: 20px;
+    }
+  }
+  .text {
+    color: #000000;
+    font-size: 21px;
+    top: 30px;
+
+    text-align: left;
+    font-family: Poppins "sans-serif";
+    margin-top: 120px;
+    position: relative;
+    background-color: #f2f2f2;
+    span {
+      color: #9b9b9b;
+      font-size: 12px;
+      text-align: left;
+      font-family: Poppins "sans-serif";
+    }
+    @media (max-width: 1030px) {
+      margin-top: 170px;
+    }
+    @media (max-width: 550px) {
+      margin-top: 70px;
+    }
+    .text-box {
+      padding: 15px 0px;
+      text-align: center;
+    }
+    .last-div {
+      border-right: 1px solid #d8d8d8;
+      // text-align: center;
+    }
+  }
+  .text1 {
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0px !important;
+    top: 30px;
+    font-family: Poppins "sans-serif";
+    margin-top: 120px;
+    position: relative;
+    border-radius: 0px 20px 0px 0px;
+
+    background-color: #faa51a;
+    @media (max-width: 1030px) {
+      margin-top: 170px;
+    }
+    @media (max-width: 550px) {
+      margin-top: 0px;
+      border-radius: 0px;
+    }
+    .text-box1 {
+      padding: 30px;
+      text-align: center;
+    }
+    // .last-div:last-of-type {
+    //   color: #ffffff;
+    //   border: none;
+    //   background-color: red;
+    // }
+    .last-div {
+      border-right: 1px solid #d8d8d8;
+      padding: 0px 10px;
+      text-align: center;
+    }
+  }
+  .dotted-rect {
+    position: absolute;
+    top: 550px;
+    right: 40px;
+    // top: -180px;
+    @media (max-width: 1030px) {
+      top: 450px;
+    }
+    @media (max-width: 991px) {
+      top: 450px;
+    }
+    img {
+      float: right;
+
+      height: 60px;
+    }
+    .scroll {
+      position: relative;
+      top: 20px;
+    }
+  }
+}
+
+section.construct_leading {
+  padding-top: 100px;
+
+  text-align: center;
+
+  h1 {
+    font-size: 36px;
+
+    font-weight: bold;
+  }
+  p {
+    color: #544837;
+    position: relative;
+    top: 3px;
+    font-size: 21px;
+    @media (max-width: 768px) {
+      font-size: 17px;
+    }
+  }
+  .cards-box {
+    margin-top: 60px;
+    padding: 0px 150px;
+    background-position: center;
+    // background-size: 100%;
+    padding-bottom: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../../assets/user-images/Triangle-Background.png");
+    @media (max-width: 1024px) {
+      // padding: 0px 10px;
+      padding: 0px;
+      padding-bottom: 180px;
+    }
+    @media (max-width: 550px) {
+      padding: 0px;
+      padding-bottom: 40px;
+    }
+    .cards {
+      padding: 0px 20px;
+      @media (max-width: 768px) {
+        padding: 0px;
+      }
+      .cards-content {
+        text-align: center;
+        h5 {
+          color: #2f281e;
+          font-size: 19px;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+        p {
+          color: #544837;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .big-circle {
+    float: right;
+    position: relative;
+    top: -140px;
+    left: 0px;
+    max-width: 100%;
+    // right: 90px;
+    height: 150px;
+  }
+}
+
+section.trade {
+  // padding-top: 100px;
+  .dotted-image {
+    float: left;
+    position: relative;
+    top: -30px;
+    left: 40px;
+    opacity: 0.8;
+    // right: 90px;
+    height: 70px;
+  }
+  .circle {
+    float: left;
+    position: relative;
+    top: -140px;
+    left: 30px;
+    max-width: 100%;
+    // right: 90px;
+    height: 120px;
+  }
+
+  text-align: center;
+  @media (max-width: 550px) {
+    padding-top: 30px;
+  }
+  h1 {
+    font-size: 36px;
+
+    font-weight: bold;
+  }
+  .table {
+    margin-top: 20px;
+    padding: 0px 100px;
+    @media (max-width: 550px) {
+      padding: 0px;
+      margin: 0px 20px;
+    }
+  }
+  table {
+    button {
+      background-color: #178cb8;
+      border-radius: 5px;
+      border: none;
+      color: #fff;
+      padding: 7px 15px;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    thead tr {
+      background-color: #ff9900;
+      border: 1px solid #ff9900;
+      color: #ffffff;
+      font-size: 16px;
+
+      font-family: Arial, Helvetica, sans-serif;
+      // font-family: Montserrat-Bold;
+    }
+    td {
+      color: #484848;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+    }
+    tbody tr:nth-child(even) {
+      background-color: #f5f5f5 !important;
+    }
+    tbody tr:nth-child(odd) {
+      background-color: #ffffff !important;
+    }
+  }
+
+  .trade_now button {
+    float: right !important;
+    transform: rotate(-90deg);
+    position: fixed;
+    top: 160px;
+    right: -30px;
+    z-index: 997 !important;
+  }
+  .create-button {
+    margin-top: 20px;
+    text-align: center;
+    button.trade {
+      margin-left: 10px;
+      background: transparent linear-gradient(270deg, #ff5616 0%, #faa51a 100%)
+        0% 0% no-repeat padding-box;
+      border: none;
+      color: #fff;
+      font-size: 19px;
+      padding: 5px 20px;
+      margin-top: 5px;
+      box-shadow: 0px 3px 6px #7e76f947;
+      border-radius: 25px;
+      text-transform: uppercase;
+    }
+    button.spread {
+      margin-left: 10px;
+      margin-top: 5px;
+      background-color: #fff;
+      border: 1px solid #fe6316;
+      border-radius: 25px;
+      font-size: 19px;
+      color: #faa51a;
+      padding: 5px 20px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+section.see_all_trade {
+  margin: 0px;
+  padding-bottom: 0px !important;
+  .dotted-image img {
+    float: right;
+    position: relative;
+    top: 35px;
+    right: 90px;
+    height: 70px;
+  }
+  h1 {
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #484848;
+    text-align: center;
+  }
+  hr {
+    width: 160px;
+    background-color: #707070;
+    height: 1px;
+  }
+  .integrated {
+    margin-top: 70px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 70px;
+
+    background-color: #feefd7;
+    @media (max-width: 1300px) {
+      padding-right: 30px;
+    }
+    @media (max-width: 767px) {
+      padding: 0px;
+      padding-top: 70px;
+    }
+    .content {
+      padding-top: 20px;
+      padding-left: 40px;
+
+      h1 {
+        font-family: Poppins "sans-serif";
+        font-weight: bold;
+        font-size: 29px;
+        color: #2f281e;
+        line-height: 1.5;
+        text-align: left;
+        @media (max-width: 1000px) {
+          font-size: 15px !important;
+        }
+        @media (max-width: 1350px) {
+          font-size: 27px;
+        }
+        @media (max-width: 1091px) {
+          font-size: 20px;
+        }
+        @media (max-width: 767px) {
+          font-size: 27px !important;
+        }
+      }
+      p {
+        font-family: Poppins "sans-serif";
+        font-weight: bold;
+        font-size: 30px;
+        margin-top: 30px;
+        color: #da9a09;
+        @media (max-width: 767px) {
+          font-size: 20px !important;
+          margin-top: 30px !important;
+        }
+        @media (max-width: 1000px) {
+          font-size: 16px !important;
+          margin-top: 15px;
+        }
+        @media (max-width: 1300px) {
+          font-size: 24px;
+          margin-top: 20px;
+        }
+      }
+    }
+    img {
+      max-width: 100%;
+      // height: 100px;
+    }
+    .integrated_info_img {
+      padding-top: 30px;
+      margin: 0px !important;
+      @media (max-width: 1091px) {
+        padding-top: 20px;
+      }
+      @media (max-width: 870px) {
+        padding-top: 10px;
+      }
+      img {
+        max-width: 100%;
+      }
+      h4 {
+        text-align: center;
+        color: #2f281e;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: Poppins "sans-serif";
+      }
+    }
+  }
+}
+
+section.meet_team {
+  margin: 0px;
+  background-image: url("../../../assets/user-images/meet_the_team_background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  height: fit-content;
+  // padding-bottom: 400px;
+  // background-attachment: fixed;
+  // width: 100%;
+  // height: auto;
+
+  .meet_team_card {
+    background: rgb(60, 99, 249);
+    padding: 30px 10px;
+    margin-top: 20px;
+    margin-bottom: 450px;
+    @media (max-width: 900px) {
+      margin-bottom: 400px;
+    }
+    background: -moz-linear-gradient(
+      90deg,
+      rgba(60, 99, 249, 1) 0%,
+      rgba(65, 175, 251, 1) 100%
+    );
+    background: -webkit-linear-gradient(
+      90deg,
+      rgba(60, 99, 249, 1) 0%,
+      rgba(65, 175, 251, 1) 100%
+    );
+    background: linear-gradient(
+      90deg,
+      rgba(60, 99, 249, 1) 0%,
+      rgba(65, 175, 251, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3c63f9",endColorstr="#41affb",GradientType=1);
+    border-radius: 5px;
+    .content {
+      h1 {
+        color: #ffe530;
+        font-family: Poppins;
+        font-weight: bold;
+        font-size: 35px;
+        margin-top: 5px;
+      }
+      p {
+        position: relative;
+        top: 20px;
+        color: #f8f8f8;
+        font-size: 24px;
+        font-family: Poppins;
+      }
+      button {
+        margin-top: 60px;
+        box-shadow: 0px 3px 6px #00000029;
+        color: #faa51a;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 40px;
+        background: #f8f8f8 0% 0% no-repeat padding-box;
+        padding: 10px 25px;
+      }
+    }
+    img {
+      max-width: 100%;
+      max-height: auto;
+    }
+  }
+}
+
+section.footer {
+  // background-color: red;
+
+  background-image: url("../../../assets/user-images/Footer-Back.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 100%;
+  height: 100vh;
+  // position: relative;
+  // bottom: 490px;
+}
